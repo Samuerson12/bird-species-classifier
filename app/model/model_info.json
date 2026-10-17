@@ -1,0 +1,12 @@
+{
+  "model": "efficientnetb0 + softmax (C=0.01)",
+  "approach": "2 Frozen features",
+  "input": "RGB image resized to 224 x 224, pixel values 0 to 255 (no extra normalisation, the model does it)",
+  "output": "200 class probabilities, index i matches class_names.json[i]",
+  "val_top1": 0.743448275862069,
+  "test_top1": 0.707641196013289,
+  "test_avg_per_class": 0.7020119047619048,
+  "test_top5": 0.915282392026578,
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.13.2"
+}
